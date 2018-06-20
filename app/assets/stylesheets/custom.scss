@@ -2,8 +2,6 @@
 @import "bootstrap";
 @import "variables";
 
-
-
 body {
   padding-top: 60px;
 }
@@ -26,7 +24,12 @@ textarea {
 
 /* typography */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1;
 }
 
@@ -69,11 +72,9 @@ p {
   text-decoration: none;
 }
 
-
-
-/* footer */
-
-@import 'footer';
+@import "footer";
+@import "sidebar";
+@import "forms";
 
 /* Miscellaneous */
 
